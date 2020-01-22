@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:STM32F030R8T6-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -25,10 +26,10 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 5E27E55C
 P 5550 1500
-F 0 "#PWR?" H 5550 1250 50  0001 C CNN
+F 0 "#PWR0101" H 5550 1250 50  0001 C CNN
 F 1 "GND" H 5555 1327 50  0000 C CNN
 F 2 "" H 5550 1500 50  0001 C CNN
 F 3 "" H 5550 1500 50  0001 C CNN
@@ -36,10 +37,10 @@ F 3 "" H 5550 1500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0102
 U 1 1 5E27DFFF
 P 5550 5425
-F 0 "#PWR?" H 5550 5275 50  0001 C CNN
+F 0 "#PWR0102" H 5550 5275 50  0001 C CNN
 F 1 "+3V3" H 5565 5598 50  0000 C CNN
 F 2 "" H 5550 5425 50  0001 C CNN
 F 3 "" H 5550 5425 50  0001 C CNN
@@ -79,4 +80,90 @@ Wire Wire Line
 Wire Wire Line
 	5750 5350 5650 5350
 Connection ~ 5650 5350
+$Comp
+L Connector:Conn_01x16_Male J1
+U 1 1 5E280BBC
+P 6550 2575
+F 0 "J1" H 6522 2549 50  0000 R CNN
+F 1 "Conn_01x16_Male" H 6522 2458 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical" H 6550 2575 50  0001 C CNN
+F 3 "~" H 6550 2575 50  0001 C CNN
+	1    6550 2575
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x16_Male J2
+U 1 1 5E2903A0
+P 6550 4275
+F 0 "J2" H 6522 4249 50  0000 R CNN
+F 1 "Conn_01x16_Male" H 6522 4158 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical" H 6550 4275 50  0001 C CNN
+F 3 "~" H 6550 4275 50  0001 C CNN
+	1    6550 4275
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 3575 6350 3575
+Wire Wire Line
+	6350 3675 6250 3675
+Wire Wire Line
+	6250 3775 6350 3775
+Wire Wire Line
+	6250 5075 6350 5075
+Wire Wire Line
+	6350 4975 6250 4975
+Wire Wire Line
+	6250 4875 6350 4875
+Wire Wire Line
+	6350 4775 6250 4775
+Wire Wire Line
+	6250 4675 6350 4675
+Wire Wire Line
+	6350 4575 6250 4575
+Wire Wire Line
+	6250 4475 6350 4475
+Wire Wire Line
+	6250 4375 6350 4375
+Wire Wire Line
+	6350 4275 6250 4275
+Wire Wire Line
+	6250 4175 6350 4175
+Wire Wire Line
+	6350 4075 6250 4075
+Wire Wire Line
+	6250 3975 6350 3975
+Wire Wire Line
+	6350 3875 6250 3875
+Wire Wire Line
+	6350 3375 6250 3375
+Wire Wire Line
+	6350 3275 6250 3275
+Wire Wire Line
+	6250 3175 6350 3175
+Wire Wire Line
+	6350 3075 6250 3075
+Wire Wire Line
+	6250 2975 6350 2975
+Wire Wire Line
+	6350 2875 6250 2875
+Wire Wire Line
+	6250 2775 6350 2775
+Wire Wire Line
+	6250 2675 6350 2675
+Wire Wire Line
+	6350 2575 6250 2575
+Wire Wire Line
+	6250 2475 6350 2475
+Wire Wire Line
+	6350 2375 6250 2375
+Wire Wire Line
+	6250 2275 6350 2275
+Wire Wire Line
+	6350 2175 6250 2175
+Wire Wire Line
+	6250 2075 6350 2075
+Wire Wire Line
+	6350 1975 6250 1975
+Wire Wire Line
+	6250 1875 6350 1875
 $EndSCHEMATC
