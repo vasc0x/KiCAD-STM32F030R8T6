@@ -1,0 +1,2 @@
+# KiCAD-STM32F030R8T6
+Breakout board for the ARM Cortex M0 STM32F030R8T6 (LQFP64)
